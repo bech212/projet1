@@ -86,11 +86,11 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="price.html" class="dropdown-item">Pricing Plan</a>
-                            <a href="feature.html" class="dropdown-item">Our features</a>
-                            <a href="team.html" class="dropdown-item">Team Members</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="quote.html" class="dropdown-item">Free Quote</a>
+                            <a href="{{ route('price') }}" class="dropdown-item @if (Route::is('price')) active @endif">pricing plan</a>
+                            <a href="{{ route('feature') }}" class="dropdown-item @if (Route::is('feature')) active @endif">Our feature </a>
+                            <a href="{{ route('team') }}" class="dropdown-item @if (Route::is('team')) active @endif">Team Members </a>
+                            <a href="{{ route('testmonial') }}" class="dropdown-item @if (Route::is('testmonial')) active @endif">Testmonial </a>
+                            <a href="{{ route('quote') }}" class="dropdown-item @if (Route::is('quote')) active @endif">Quote </a>
                         </div>
                     </div>
                     <a href="{{ route('contact') }}" class="nav-item nav-link @if (Route::is('contact')) active @endif">Contact</a>
