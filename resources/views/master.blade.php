@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Startup - Startup Website Template</title>
+    <title> Startup Website </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -80,7 +80,7 @@
                     <a href="{{ route('apropos') }}" class="nav-item nav-link @if (Route::is('apropos')) active @endif">apropos</a>
                     <a href="{{ route('service') }}" class="nav-item nav-link @if (Route::is('service')) active @endif">Services</a>
                     <a href="{{ route('blogs.index') }}" class="nav-item nav-link @if (Route::is('blogs.index')) active @endif">blog</a>
-                    
+
 
 
                     <div class="nav-item dropdown">
