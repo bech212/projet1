@@ -29,6 +29,8 @@ Route::get('/', function () {return view('welcome');})
 ->name('welcome');
 
 
+Route::get('service', [ServiceContoller::class, 'index'])->name('service');
+
 
 
 Route::get('contact', [ContactContoller::class, 'index'])->name('contact');
