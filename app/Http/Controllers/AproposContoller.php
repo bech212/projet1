@@ -13,6 +13,7 @@ class AproposContoller extends Controller
      */
     public function index()
     {
+
         return view('apropos');
     }
 
