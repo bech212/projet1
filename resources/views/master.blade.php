@@ -80,7 +80,7 @@
                     <a href="{{ route('apropos') }}" class="nav-item nav-link @if (Route::is('apropos')) active @endif">apropos</a>
                     <a href="{{ route('service') }}" class="nav-item nav-link @if (Route::is('service')) active @endif">Services</a>
                     <a href="{{ route('blogs.index') }}" class="nav-item nav-link @if (Route::is('blogs.index')) active @endif">blog</a>
-
+                    
 
 
                     <div class="nav-item dropdown">
